@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container1">
+        <h1>Temperature Converter</h1>
+    </div>
+    <div class="container2">
+        <div class="container3">
+            <div id="container">
+                <label for="inputTemp">Enter Temperature:</label>
+                <input type="text" id="inputTemp" placeholder="Enter temperature..." />
+
+                <label for="fromUnit">From:</label>
+                <select id="fromUnit">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+
+                <label for="toUnit">To:</label>
+                <select id="toUnit">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+
+                <button onclick="convertTemperature()">Convert</button>
+
+                <div id="result"></div>
+            </div>
+        </div>
+        <div>
+            <footer>
+                <div>Developed by Shrikant Kale</div>
+                <div>©2023 All rights reserved.</div>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

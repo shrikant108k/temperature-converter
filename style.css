@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #abe2e7;
+}
+
+.container1 {
+    height: auto;
+    background-color: hsl(196, 60%, 37%);
+    background-position: center; 
+    
+}
+.container1:hover {
+    background-color: rgba(96, 197, 231, 0.506);
+}
+
+.container2 {
+    height: 700px;
+    width: auto;
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.container3 {
+    padding-top: 10%;
+
+}
+
+h1 {
+    font-size: 33px;
+    color: #000000;
+    transition: font-size 0.3s, color 0.3s;
+    text-align: center;
+    margin-top: 20px;
+}
+h1:hover {
+    font-size: 35px; 
+    color: #0c76df86; 
+    font-weight: bold; 
+}
+
+#container {
+    
+    width: 300px;
+    margin:  auto;
+    padding: 20px;
+    border: 3px solid #0746b3;
+    border-radius: 5px;
+    background-color: rgba(142, 210, 233, 0.384);
+    box-shadow: 5px 10px 15px rgba(7, 58, 83, 0.792);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0746b3;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #c5e2ee;
+    
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0746b3;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #c5e2ee;
+}
+
+button {
+    background-color: #3a85e7;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2f7ac58e;
+    font-size: 17px;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer{
+    background-color: rgba(23, 105, 132, 0.384);
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+  }
+footer:hover {
+    background-color: rgba(142, 210, 233, 0.384);
+}
+
+
