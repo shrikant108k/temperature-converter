@@ -9,6 +9,10 @@ function convertTemperature() {
             result = (inputTemp * 9/5) + 32;
         } else if (toUnit === "kelvin") {
             result = inputTemp + 273.15;
+          
+        }
+        else if (toUnit=="celsius"){
+            result=inputTemp
         }
     } else if (fromUnit === "fahrenheit") {
         if (toUnit === "celsius") {
@@ -16,11 +20,17 @@ function convertTemperature() {
         } else if (toUnit === "kelvin") {
             result = (inputTemp - 32) * 5/9 + 273.15;
         }
+        else if (toUnit=="fahrenheit"){
+            result=inputTemp
+        }
     } else if (fromUnit === "kelvin") {
         if (toUnit === "celsius") {
             result = inputTemp - 273.15;
         } else if (toUnit === "fahrenheit") {
             result = (inputTemp - 273.15) * 9/5 + 32;
+        }
+        else if (toUnit=="kelvin"){
+            result=inputTemp
         }
     }
 
